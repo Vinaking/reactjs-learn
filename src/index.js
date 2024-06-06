@@ -6,6 +6,7 @@ import StateVocj from './vocj.js';
 import Todo from './managing_state/Todo.js';
 import { VideoPlayer } from './escape_hatches/VideoPlayer.js';
 import { Search } from './escape_hatches/Search.js';
+import { AjaxCall } from './networking/AjaxCall.js';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Search />);
+root.render(<AjaxCall />);
